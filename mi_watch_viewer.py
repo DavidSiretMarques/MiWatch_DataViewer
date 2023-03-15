@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 
 # Read the file and save it to variable
-with open("D:\\MEGA\\Python\\Proyectos-varios-python\\MiWatch-data\\MiFitness_data\\20230217_6387537928_MiFitness_hlth_center_fitness_data.csv") as f:
+with open("filepath.csv") as f:
     data = pd.read_csv(f, usecols=["Key", "Value"], dtype={
                        "Key": pd.StringDtype(), "Value": pd.StringDtype()})
 
